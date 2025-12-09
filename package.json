@@ -1,0 +1,37 @@
+{
+  "name": "@kwiklabs/extension",
+  "version": "0.1.0",
+  "description": "Kwik Send — browser extension for zero-knowledge file sharing",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "kwik",
+    "file-sharing",
+    "encryption",
+    "browser-extension",
+    "chrome-extension",
+    "firefox-addon"
+  ],
+  "author": "Kwik Labs",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kwiklabs/extension.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kwiklabs/extension/issues"
+  },
+  "homepage": "https://kwik.gg/extension",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/chrome": "^0.0.256",
+    "@types/node": "^22.10.2",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  }
+}
